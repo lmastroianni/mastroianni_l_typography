@@ -1,1 +1,1 @@
-# mastroianni_l_typography Typography assignment - Web Development
+# mastroianni_l_typography

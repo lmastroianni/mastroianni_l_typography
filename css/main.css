@@ -4,12 +4,16 @@
 {
 	display: none;
 }
-#container body
+#container
 {
 	
-	height: 2000px;
 	width: 1350px;
 	margin: 0 auto;
+	background-color: #dddddd;
+}
+
+body
+{
 	background-color: #dddddd;
 }
 
