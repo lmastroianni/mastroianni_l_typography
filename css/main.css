@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/*CSS Doc*/
+.hidden
+{
+	display: none;
+}
+#container body
+{
+	
+	height: 2000px;
+	width: 1350px;
+	margin: 0 auto;
+	background-color: #dddddd;
+}
+
+#title 
+{
+	text-align: center;
+	padding-top: 20px;
+	font-family: Anton;
+	font-weight: bold;
+	letter-spacing: 5px;
+}
+
+#mainNav
+{
+	display:flex;
+	width: 320px;
+	height: 50px;
+	margin-left: auto; 
+}
+
+#mainNav ul
+{
+	list-style-type: none;
+}
+
+#mainNav ul li 
+{
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+
+}
+
+#mainNav ul li a
+{
+	color: #8b1f03;
+	text-decoration: none;
+	font-family: Anton;
+	text-transform: uppercase;
+	transition: all .5s ease;
+}
+
+#mainNav ul li a:hover
+{
+	
+	padding: 4px;
+	background-color: #88746a;
+	border-radius: 10px;
+	color: ;
+
+}
+
+ #mainHeader
+{
+
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+}
+
+#hero
+{
+	margin: 20px;
+	height: 440px;
+	width: 600px;
+	background-color: #8b1f03;
+}
+
+#traa 
+{
+	padding-left: 20px;
+	font-family: Lobster;
+	font-size: 30px;
+	color: #88746a ;
+}
+
+
+#hero p
+{
+	color: white;
+	padding: 5px;
+	font-family: Merriweather;
+	font-size: 14px;
+}
+
+#hero img
+{
+	padding-left: 70px;
+
+}
+
+
+#about
+{
+	font-family: lobster;
+	font-size: 22px;
+	margin-top: -88px;
+	text-align: center;
+	
+}
+
+#projects p
+{
+	color: #8b1f03;
+	padding: 5px;
+
+}
+
+#project1
+{
+	height: 271px;
+	width: 600px;
+	background-color: #efefefef;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-top: -460px;
+    font-family: Merriweather;
+    font-size: 14px;
+}
+
+
+/*#project2*/
+{
+    height: 300px;
+	width:300px;
+	background-color: #88746a; 
+}
+
+#rainbow 
+{
+	padding-left: 14px;
+	font-family: Lobster;
+	color: #88746a;
+	margin-top: 200px;
+	font-size: 30px;
+}
+
+#rainbowTrout 
+{
+	
+	height: 100px;
+	width: 1320px;
+	background-color: #8b1f03;
+	margin:200px;
+	margin-left: 14px;
+	margin-top: -10px;
+
+}
+
+#rainbowTrout p
+{
+	color: white;
+	padding: 5px;
+	font-family: Merriweather;
+	font-size: 14px;
+}
+
+#rainbowTrout img
+{
+  margin: 25px;
+  padding-left: 180px;
+}
+
+  
+
+#footerNav ul
+{
+	list-style-type: none;
+}
+
+#footerNav ul li 
+{
+	display: inline;
+	padding: 10px;
+	text-decoration: none;
+
+}
+
+#footerNav ul li a
+{
+	color: #8b1f03;
+	text-decoration: none;
+	font-family: Anton;
+	text-transform: uppercase;
+	transition: all .5s ease;
+}
+
+#footerNav ul li a:hover
+{
+	
+	padding: 4px;
+	background-color: #88746a;
+	border-radius: 10px;
+
+}
+
+.mainFooter
+{
+	text-align: center;
+}
+
+#title
+{
+	opacity: 0.5;
+}
+
+#title:hover
+{
+	opacity: 1;
+}
